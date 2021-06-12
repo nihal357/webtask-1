@@ -21,6 +21,7 @@ body{
     padding: 12px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .container{
@@ -55,6 +56,22 @@ body{
     width: 100%;
 }
 
+.hero_text{
+    font-size: 30px;
+    color: #1d3557;
+    margin: 20px;   
+}
+
+/* Menu Card */
+
+.food_menu_card{
+    width: 100%;
+}
+
+.food_image{
+    width: 100%;
+}
+
 @media(min-width : 768px){
     .navbar{
         justify-content: space-between;
@@ -64,7 +81,7 @@ body{
         width: 150px;
     }
     .button_primary{
-        padding: 20px;
+        padding: 12px 20px;
         font-size: 20px;
     }
     .hero_container{
@@ -77,16 +94,17 @@ body{
 }
 
 @media(min-width : 1020px){
-    .hero_image_container{
-        width: 500px;
-        height: 300px;
-    }
     .container{
-        max-width: 1010px;
+        max-width: 900px;
+    }
+    .hero_text{
+        font-size: 50px;
     }
 }
 
 @media(min-width : 1400px){
-    
+    .container{
+        max-width: 1250px;
+    }
 }
 
