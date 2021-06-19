@@ -280,7 +280,7 @@ footer > img {
     filter: brightness(0) invert(1);
   }
 
-.twitter{
+.image{
     width: 30px;
     justify-content: space-around;
     cursor: pointer;
